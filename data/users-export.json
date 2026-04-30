@@ -1,0 +1,30 @@
+[
+  {
+    "user_id": 1536868565,
+    "intro_seen": true,
+    "language": "fr",
+    "market": "futures",
+    "trading_style": "intraday",
+    "coins": [
+      "DOT",
+      "MATIC",
+      "DOGE"
+    ],
+    "onboarding_complete": true,
+    "active_message_id": 41
+  },
+  {
+    "user_id": 177337682742,
+    "intro_seen": true,
+    "language": "fr",
+    "market": "spot",
+    "trading_style": "scalping",
+    "coins": [
+      "BTC",
+      "DOGE",
+      "LINK"
+    ],
+    "onboarding_complete": true,
+    "active_message_id": null
+  }
+]

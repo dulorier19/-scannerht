@@ -1,0 +1,8 @@
+node_modules/
+.env
+data/users.json
+data/*.sqlite
+data/*.sqlite-*
+.venv/
+__pycache__/
+.pytest_cache/

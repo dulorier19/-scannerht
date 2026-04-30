@@ -1,0 +1,14 @@
+{
+  "name": "scannerht-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot service for ScannerHT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "check": "node --check index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "telegraf": "^4.16.3"
+  }
+}

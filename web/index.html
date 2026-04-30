@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ScannerHT</title>
+    <link rel="icon" type="image/svg+xml" href="/assets/logo.svg" />
+    <link rel="stylesheet" href="/assets/styles.css?v=20260315-tv2" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <div class="ambient ambient-left"></div>
+      <div class="ambient ambient-right"></div>
+
+      <main class="app-frame">
+        <section class="panel" aria-live="polite">
+          <div class="panel-head">
+            <div class="brand-chip">
+              <img src="/assets/logo.svg" alt="ScannerHT logo" class="brand-logo" />
+              <div>
+                <p class="eyebrow">ScannerHT</p>
+                <h1 class="panel-title">Crypto command center</h1>
+              </div>
+            </div>
+
+            <button class="ghost-button" id="session-button" type="button">
+              Session
+            </button>
+          </div>
+
+          <div id="app"></div>
+        </section>
+
+        <aside class="side-card">
+          <p class="eyebrow">Web Preview</p>
+          <h2>Telegram logic, now web-ready.</h2>
+          <p class="side-copy">
+            The same onboarding state is shared through the Python API and SQLite, so the bot
+            and the web app stay aligned.
+          </p>
+
+          <div class="stat-grid">
+            <article class="stat-card">
+              <span class="stat-label">Flow</span>
+              <strong>Intro -> Setup -> Ready</strong>
+            </article>
+            <article class="stat-card">
+              <span class="stat-label">Storage</span>
+              <strong>SQLite shared state</strong>
+            </article>
+            <article class="stat-card">
+              <span class="stat-label">Mode</span>
+              <strong>Single-screen UX</strong>
+            </article>
+          </div>
+        </aside>
+      </main>
+    </div>
+
+    <script src="/assets/app.js?v=20260315-tv2" defer></script>
+  </body>
+</html>
